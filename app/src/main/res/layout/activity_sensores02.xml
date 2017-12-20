@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2d66f"
+    tools:context="com.iesvirgendelcarmen.dam.sensores02.Sensores02">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SENSOR DE ACELERACION"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJE X"
+        android:textStyle="italic"
+        android:textColor="#9348f5"/>
+
+    <TextView
+        android:id="@+id/ejeX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acelaracion_X"
+        android:textStyle="bold"
+        android:textColor="#0a0909"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJE Y"
+        android:textStyle="italic"
+        android:textColor="#9348f5"/>
+
+    <TextView
+        android:id="@+id/ejeY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acelaracion_Y"
+        android:textStyle="bold"
+        android:textColor="#0a0909"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJE Z"
+        android:textStyle="italic"
+        android:textColor="#9348f5"/>
+
+    <TextView
+        android:id="@+id/ejeZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acelaracion_Z"
+        android:textStyle="bold"
+        android:textColor="#0a0909"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MODULO DE ACELERACION"
+        android:textStyle="italic"
+        android:textColor="#9348f5"/>
+
+    <TextView
+        android:id="@+id/aceleracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acelaracion"
+        android:textStyle="bold"
+        android:textColor="#0a0909"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACELERACION MAXIMA"
+        android:textStyle="italic"
+        android:textColor="#9348f5"/>
+
+    <TextView
+        android:id="@+id/aceleracion_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acelaracion_max"
+        android:textStyle="bold"
+        android:textColor="#0a0909"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GRAVEDAD ESTANDAR"
+        android:textStyle="italic"
+        android:textColor="#9348f5"/>
+
+    <TextView
+        android:id="@+id/gravedad_estandar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravedad_standard"
+        android:textStyle="bold"
+        android:textColor="#0a0909"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"/>
+
+
+</LinearLayout>
